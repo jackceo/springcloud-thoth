@@ -12,7 +12,6 @@
 
     <artifactId>thoth-data-kafka</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
     <name>thoth-data-kafka</name>
 
     <modules>
@@ -29,13 +28,11 @@
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
-            <version>0.10.0.1</version>
         </dependency>
 
         <dependency>
             <groupId>com.prometheus</groupId>
             <artifactId>thoth-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
