@@ -11,7 +11,6 @@
     </parent>
 
     <artifactId>thoth-ai-ms</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>thoth-ai-ms</name>
@@ -27,14 +26,12 @@
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
-            <version>2.8.2</version>
         </dependency>
 
 
         <dependency>
             <groupId>com.prometheus</groupId>
             <artifactId>thoth-dependencies</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
             <optional>true</optional>
             <exclusions>
                 <exclusion>
@@ -45,12 +42,12 @@
         </dependency>
 
     </dependencies>
-    <developers>
+<!--     <developers>
         <developer>
             <name>sunliangliang</name>
             <email>sunliangliang@cyou-inc.com</email>
             <organization>prometheus</organization>
         </developer>
-    </developers>
+    </developers> -->
 
 </project>
